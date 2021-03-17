@@ -1,9 +1,19 @@
-# Air CNC 
+# Air CNC
 
 
-## A
+## Overview
 
-In the project directory, you can run:
+A travel Agency App.
 
-### Live 
+### Technologies
+
+- React.js
+- Bootstrap
+- Firebase auth
+- Netlify
+- Sass
+- Google Maps
+- React Hooks Form
+
+## [Live](https://blissful-lewin-9ae8f9.netlify.app/) 
 
