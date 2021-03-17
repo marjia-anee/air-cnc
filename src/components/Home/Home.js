@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import ExperienceInfo from '../../fakeData/ExperienceInfo';
 import MainInfo from '../../fakeData/MainInfo';
 import Experiences from './Experiences/Experiences';
-import './Home.css';
+import './Home.scss';
 import Main from './Main/Main';
 
 const Home = () => {
@@ -69,7 +69,11 @@ const Home = () => {
                         </div>
                     </div>
                     <div xs={12} md={6}>
+                        <div className ="d-flex justify-content-between">
                         <h3 className = "mt-2">Homes</h3>
+                        <Link to={"/hotelDetails"}><button className="btn btn-info">View Details</button> </Link>
+                        </div>
+                        
                         <div className='d-flex justify-content-around'>
                             {
                                 MainInfo.map(Home => <Main Home={Home} key={Home.id} ></Main>)

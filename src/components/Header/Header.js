@@ -2,7 +2,7 @@ import React from 'react';
 import { Nav, Navbar, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../../images/logo.png';
-import './Header.css';
+import './Header.scss';
 
 const Header = () => {
       return (

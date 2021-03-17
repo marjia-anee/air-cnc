@@ -18,7 +18,7 @@ const Login = () => {
                               {errors.country && <span style={{ color: 'red' }}>This field is required</span>}
                         </div>
                         <div className="input-box">
-                              <label>Country / Region</label> <br />
+                              <label>Phone Number</label> <br />
                               <input type="tel" className="form-control" name="phone" placeholder="Enter Phone Number" ref={register({ required: true })} />
                               {errors.phone && <span style={{ color: 'red' }}>This field is required</span>}
                         </div>

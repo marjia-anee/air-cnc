@@ -4,7 +4,7 @@ import room2 from '../../images/room2.jpeg';
 import room3 from '../../images/room3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
-import './Location.css';
+import './Location.scss';
 
 const Location = () => {
       return (
